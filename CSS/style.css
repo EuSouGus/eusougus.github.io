@@ -29,6 +29,12 @@ main {
     margin: 20px;
 }
 
+@media (max-width: 880px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
 .esquerda, .experiencias, .educacao {
     background-color: var(--fundo-secao);
     border-radius: 10px;
@@ -119,5 +125,5 @@ footer a {
 
 footer a:hover {
     color: white;
-    border 2px solid white;
+    border: 2px solid white;
 }
